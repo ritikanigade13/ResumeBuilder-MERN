@@ -21,8 +21,10 @@ app.post("/login", (req, res) => {
   const { email, password } = req.body;
   res.send("Logged in Successfully").status(201);
 });
+
 app.post("/register", (req, res) => {
   const { name, email, password } = req.body;
+  console.log(name, email);
   res.send("Registered Successfully").status(201);
 });
 

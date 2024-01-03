@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Home from "../Pages/Home";
+import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import NoPage from "../Pages/NoPage";
@@ -11,7 +11,7 @@ function Router() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Register />} />
+          <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/about" element={<About />} />

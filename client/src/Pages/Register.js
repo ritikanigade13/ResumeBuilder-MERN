@@ -63,7 +63,7 @@ function Login() {
           onChange={handleChange}
         />
         <button className="login-btn" onClick={handleLogin}>
-          Login
+          Register
         </button>
       </form>
     </>
